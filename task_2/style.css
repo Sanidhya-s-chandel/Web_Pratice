@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#para{
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+
+#para h1{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-family: gilroy;
+    font-size: 150px;
+}
+
+#para h2{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    transform: rotate(-90deg);
+}
+
+#para h6{
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    transform: rotate(-90deg);
+    font-size: 15px;
+    font-family: gilroy;
+}
+
+#para p{
+    position: absolute;
+    font-family: gilroy;
+    top: 50%;
+    left: 5%;
+    width: 35%;
+    font-size: 20px;
+    text-align: left;
+    font-family: gilroy;
+    font-style: bold;
+    font-weight: 400;
+}
+
+#para button{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    padding: 10px 50px;
+    font-style: bold;
+    font-family: gilroy;
+    font-weight: 700;
+    color: black;
+    border: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: transparent;
+}
+
+img{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 85%;
+    height: 90%;
+}
+
+#para button:hover{
+    background-color: black;
+    color: #fff;
+    font-family: gilroy;
+    letter-spacing: 2px;
+    box-shadow: 10px 10px 50px black;
+}
