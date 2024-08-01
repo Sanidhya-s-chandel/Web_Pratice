@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: rgba(0, 0, 0, 0.458);
+    height: 100%;
+    width: 100%;
+    font-family: gilroy;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container{
+    height: 550px;
+    width: 400px;
+    text-align: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+    border: 4px solid black ;
+    background-color: rgba(0, 255, 229, 0.751);
+    transition: all cubic-bezier(0.23, 1, 0.320, 1) 1s;
+}
+
+.container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+    border: 3px solid black;
+    transition: all cubic-bezier(0.23, 1, 0.320, 1) 1s;
+}
+
+.container h1{
+    margin: 15px;
+    font-size: 30px;
+}
+
+.container p{
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container button{
+    margin: 15px;
+    padding: 10px 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+.container button:hover{
+    border: 2px solid #fff;
+    background-color: black;
+    color: #fff;
+    letter-spacing: 4px;
+    box-shadow: 0px 0px 20px 8px black;
+}
+
+.container img:hover{
+    height: 250px;
+    width: 250px;
+    border: 5px solid #fff;
+}
+
+.container:hover{
+    height: 580px;
+    width: 460px;
+    text-align: center;
+    padding: 30px 40px;
+    border-radius: 20px;
+    border: 4px solid black ;
+    background-color: rgb(6, 169, 109);
+    font-size: 30px;
+}
