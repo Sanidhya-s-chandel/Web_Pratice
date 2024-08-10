@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: gilroy;
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    padding: 10px 45px;
+    font-size: 30px;
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    position: relative;
+    z-index: 0;
+}
+
+button::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+button:hover::after{
+    animation-name: ani;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    background-color: lightseagreen;
+}
+
+@keyframes ani{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
