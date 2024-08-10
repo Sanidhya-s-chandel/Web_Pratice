@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main img{
+    transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 1s;
+}
+
+.ani:hover{
+    scale: 1.1;
+}
+
+.main button:hover{
+    transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 1s;
+    scale: 1.2;
+}
