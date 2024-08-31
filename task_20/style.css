@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.bottom{
+    height: calc(100vh - 15vh);
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.left1 h1{
+    line-height: 90px;
+}
