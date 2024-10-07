@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: archivo;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#nav{
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#nav span{
+    font-size: 20px;
+    color: rgb(106, 106, 106);
+}
+
+#nav #right {
+    display: flex;
+    gap: 25px;
+}
+
+#nav #right a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(106, 106, 106);
+}
+
+.cards{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#left{
+    height: 100%;
+    width: 67%;
+    border-radius: 50px;
+    background-color: #131311;
+    overflow: hidden;
+    position: relative;
+}
+
+#left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#left #left-content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 45px 50px;
+    display: flex;
+    gap: 15px;
+}
+
+#left #left-content #emoji{
+    background-color: rgb(255, 191, 0);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#left #left-content #emoji img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#left #left-content #head{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#left #left-content #head h4{
+    color: #686868;
+}
+
+#left #right-content{
+    width: 100%;
+    position: absolute;
+    top: 15px;
+    left: 730px;
+    padding: 45px 50px;
+    display: flex;
+    gap: 20px;
+}
+
+#left #right-content{
+    font-size: 40px;
+}
+
+#bottom{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+
+#bottom h1{
+    font-size: 60px;
+    font-weight: 200;
+    line-height: -1px;
+}
+
+#bottom p{
+    width: 63%;
+    padding: 50px 0px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #989796;
+}
+
+.cards #right{
+    height: 100%;
+    width: 32%;
+    border-radius: 50px;
+    background-color: #FFD951;
+    text-align: center;   
+}
+
+#right img{
+    height: 100%;
+    box-shadow: #FFD951;
+    object-fit: cover;
+}
+
+#nav #right a:hover{
+    color: #a9a3a3;
+}
+
+#right-content i:hover{
+    color: #565353;
+}
